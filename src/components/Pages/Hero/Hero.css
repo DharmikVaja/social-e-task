@@ -1,0 +1,33 @@
+.animated_card:before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 180%;
+    background: #ff0800;
+    z-index: -10;
+    transform: rotate(45deg);
+}
+
+.animated_card {
+    position: relative;
+    overflow: hidden;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #ed3c29;
+}
+
+.animated_card:after {
+    position: absolute;
+    content: "";
+    inset: 5px;
+    background-color: #2e2c2c;
+    z-index: -5;
+    border-radius: 8px;
+}
+
+.btn-expand {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease-out;
+}
