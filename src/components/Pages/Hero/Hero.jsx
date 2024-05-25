@@ -7,6 +7,7 @@ import { FaWallet } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { FaApple } from "react-icons/fa";
+import "../Button/Button.css"
 
 const Hero = () => {
   return (
@@ -45,11 +46,11 @@ const Hero = () => {
             </div>
             <div className="flex mt-5 items-center gap-5 font-medium">
               <div className="btn-glow-wrapper group">
-                <button className="btn-glow bg-transparent hover:bg-gradient-to-b hover:from-[#FA610A] hover:to-[#ED3C29] hover:cursor-pointer uppercase -skew-x-12 w-[138px] md:w-[168px] h-[50px] text-white px-3 py-3 border-[1px] border-[#ED3C29] rounded-lg">
+                <button className=" glow-on-hover black_btn bg-black hover:bg-gradient-to-b hover:from-[#FA610A] hover:to-[#ED3C29] hover:cursor-pointer uppercase -skew-x-12 w-[138px] md:w-[168px] h-[50px] text-white px-3 py-3 border-[1px] border-[#ED3C29] rounded-lg">
                   Explore
                 </button>
               </div>
-              <button className="bg-[#FA610A] hover:bg-gradient-to-b hover:from-[#FA610A] hover:to-[#ED3C29] hover:cursor-pointer uppercase -skew-x-12 w-[138px] md:w-[168px] text-white px-3 py-3 border-[1px] border-[#ED3C29] rounded-lg">
+              <button className="glow-on-hover orange_button bg-[#FA610A] hover:bg-gradient-to-b hover:from-[#FA610A] hover:to-[#ED3C29] hover:cursor-pointer uppercase -skew-x-12 w-[138px] md:w-[168px] text-white px-3 py-3 border-[1px] border-[#ED3C29] rounded-lg">
                 Learn More
               </button>
             </div>
@@ -76,7 +77,7 @@ const Hero = () => {
         <img
           src={glowImg}
           alt=""
-          className="absolute bg-transparent h-[900px] opacity-60 -z-10"
+          className="absolute bg-transparent w-0 md:h-[900px] opacity-60 -z-10"
           style={{ top: "200px", left: "600px", right: "" }}
         />
         <section>
@@ -85,7 +86,7 @@ const Hero = () => {
               <p className="text-white md:text-center">Enter into a massive</p>
               <div>
                 <p className="bg-gradient-to-b from-[#FA610A] to-[#ED3C29] inline-block text-transparent bg-clip-text">
-                  Social
+                  Social{" "}
                 </p>
                 <span className="text-white md:text-center">Experience</span>
               </div>
