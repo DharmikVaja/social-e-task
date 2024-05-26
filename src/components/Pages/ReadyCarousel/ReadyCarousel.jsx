@@ -18,7 +18,7 @@ const ReadyCarousel = () => {
     centerMode: true,
     centerPadding: "10px",
     slidesToShow: 4.5,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     focusOnSelect: true,
     infinite: true,
     speed: 300,
@@ -40,7 +40,6 @@ const ReadyCarousel = () => {
       },
     ],
   };
-
   const goToSlide = (index) => {
     sliderRef.current.slickGoTo(index);
   };

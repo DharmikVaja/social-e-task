@@ -33,7 +33,7 @@ const Footer = () => {
 
         {/* Bottom Section with FooterBg */}
         <div
-          className="relative w-full h-64 bg-no-repeat bg-center bg-cover bg-transparent z-10 flex justify-center items-center"
+          className="relative w-full h-64 bg-no-repeat bg-center bg-cover  flex justify-center items-center"
           style={{ backgroundImage: `url(${FooterBg})` }}
         >
           <p className="text-center text-slate-300 bg-transparent pt-12 rounded">

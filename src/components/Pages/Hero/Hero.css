@@ -32,6 +32,16 @@
     transition: all 1s ease-out;
 }
 
-.bgcara1{
-    width:75% !important
+.bgcara1 {
+    width: 75% !important
+}
+
+#tsparticles {
+    
+}
+
+canvas{
+    display: block;
+    vertical-align: middle;
+
 }

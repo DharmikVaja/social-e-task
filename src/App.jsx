@@ -10,9 +10,12 @@ import MetaverseSlide from "./components/Pages/MetaverseSlide/MetaverseSlide";
 import ReadyCarousel from "./components/Pages/ReadyCarousel/ReadyCarousel";
 import "./App.css";
 
+
 function App() {
+  
   return (
     <>
+     
       <Hero />
       <DownloadComp />
       <DesignAvatar />
