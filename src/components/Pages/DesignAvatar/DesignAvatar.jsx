@@ -23,7 +23,7 @@ const DesignAvatar = () => {
               className="absolute  top-5 z-20"
             />
           </div>
-          <div className="md:w-[600px] pt-5">
+          <div className="md:w-[600px] pt-8">
             <div className="uppercase text-white lg:text-[45px] md:text-[40px] text-[30px] font-bold text-center leading-snug ">
               Design your own{" "}
               <span className="bg-gradient-to-b from-[#FA610A] to-[#ED3C29] inline-block text-transparent bg-clip-text">

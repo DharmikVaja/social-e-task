@@ -35,7 +35,7 @@
 }
 
 .glow-on-hover:active:after {
-    background: transparent;
+    /* background: transparent; */
 }
 
 .glow-on-hover:hover:before {
@@ -49,6 +49,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    background: #FA610A;
     background-color: #FA610A;
     left: 0;
     top: 0;
@@ -69,4 +70,50 @@
     100% {
         background-position: 0 0;
     }
+}
+
+.follow_social_btn {
+    background-image: url("../../../assets/Images/icons/button_bg.svg");
+    width: 100px;
+    height: 100px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+.follow_social_btn:hover .social_icon {
+    color: #ffffff;
+}
+
+
+.follow_social_btn:hover {
+    width: 200px;
+    gap: 15px;
+    background-color: #FA610A;
+
+}
+
+.social_icon {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #FA610A;
+    transition: color 0.3s ease;
+}
+
+.social_text {
+    display: none;
+    color: white;
+    /* margin-left: 8px; */
+    font-size: large;
+    font-weight: bold;
+}
+
+.follow_social_btn:hover .social_text {
+    display: flex;
+    color: white;
 }

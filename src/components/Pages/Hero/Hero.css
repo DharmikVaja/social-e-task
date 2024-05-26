@@ -8,14 +8,6 @@
     transform: rotate(45deg);
 }
 
-.animated_card {
-    position: relative;
-    overflow: hidden;
-    border-width: 1px;
-    border-radius: 15px;
-    border-color: #ed3c29;
-}
-
 .animated_card:after {
     position: absolute;
     content: "";
@@ -23,6 +15,14 @@
     background-color: #2e2c2c;
     z-index: -5;
     border-radius: 8px;
+}
+
+.animated_card {
+    position: relative;
+    overflow: hidden;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #ed3c29;
 }
 
 .btn-expand {
