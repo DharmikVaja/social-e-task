@@ -1,4 +1,4 @@
-import glowImg from "../../../assets/Images/ellipse.svg"
+// import glowImg from "../../../assets/Images/ellipse.svg";
 const InterestedJoin = () => {
   return (
     <section>
@@ -10,12 +10,12 @@ const InterestedJoin = () => {
           </span>
         </p>
         <div>
-        <img
+          {/* <img
               src={glowImg}
               alt=""
-              className="absolute bg-transparent h-[1200px] opacity-60"
+              className="relative bg-transparent h-[1200px] opacity-60"
               style={{ top: "3500px", left: "-500px", right: 0 }}
-            />
+            /> */}
           <p className="text-center text-[28px] md:text-[30px]  font-bold uppercase text-white mt-10 ">
             Create{" "}
             <span className="block md:inline bg-gradient-to-b from-[#FA610A] to-[#ED3C29]  text-transparent bg-clip-text">

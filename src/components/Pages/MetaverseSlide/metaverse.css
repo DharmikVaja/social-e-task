@@ -1,0 +1,30 @@
+.carousel-item-wrapper {
+    width: 350px;
+    height: auto; /* Ensure height is determined by content */
+  }
+  
+  .carousel-item {
+    height: 100%; /* Ensure full height */
+  }
+  
+  .carousel-item-content {
+    height: 100%;
+  }
+  
+  .carousel-item.active .carousel-item-content {
+    height: 400px; /* Adjust height when active or hovered */
+  }
+  
+  .slick-slide {
+    transition: transform 0.5s ease;
+  }
+  
+  .slick-center .carousel-item {
+    transform: scale(1.1);
+  }
+  
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  

@@ -18,16 +18,95 @@ body {
     border-radius: 10px;
 }
 
-#tsparticles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+/*  */
+.carousel-img {
+    transition: transform 0.5s ease;
 }
 
-#particles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+.owl-item.active.center .carousel-img {
+    transform: scale(1.2);
 }
+
+.owl-item:not(.active) .carousel-img {
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+
+.carousel-img {
+    transition: transform 0.5s ease;
+}
+
+/* src/App.css */
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+/* Custom carousel styles */
+.carousel-img {
+    transition: transform 0.5s ease;
+}
+
+.slick-center .carousel-img {
+    transform: scale(1.2);
+}
+
+.slick-slide:not(.slick-center) .carousel-img {
+    transform: scale(0.8);
+    opacity: 0.7;
+}
+
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+.carousel-img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    cursor:grab;
+    /* This resizes the image to fit the container */
+}
+
+.slick-center .carousel-img {
+    transform: scale(1.2);
+}
+
+.slick-slide:not(.slick-center) .carousel-img {
+    transform: scale(0.8);
+    opacity: 0.7;
+}
+
+.custom-nav {
+    display: flex;
+    justify-content: center;
+    /* Center buttons horizontally */
+    margin-bottom: 20px;
+}
+
+.custom-nav button {
+    background: #ccc;
+    border: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.custom-nav button.active.center {
+    background: #fa610a;
+}
+.slick-prev, .slick-next {
+    display: none !important;
+  }
+  
+  .slick-slide {
+    transition: height 0.5s ease;
+  }
+  
+  .slick-slide div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
